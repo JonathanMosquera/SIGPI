@@ -1,0 +1,78 @@
+/* MATERIAL DESIGN RIPPLE */
+.ripple-light {
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,0.5);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+.ripple-light.animated {
+    animation: ripple 0.3s linear;
+    -webkit-animation: ripple 0.3s linear;
+    -moz-animation: ripple 0.3s linear;
+    -o-animation: ripple 0.3s linear;
+}
+.has-ripple {
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    outline: none;
+}
+
+.ripple-dark {
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+
+.ripple-dark.animated {
+    animation: ripple 0.3s linear;
+    -webkit-animation: ripple 0.3s linear;
+    -moz-animation: ripple 0.3s linear;
+    -o-animation: ripple 0.3s linear;
+}
+
+@keyframes ripple {
+    100% {
+        -webkit-transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes ripple {
+    100% {
+        -webkit-transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+@-o-keyframes ripple {
+    100% {
+        -webkit-transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes ripple {
+    100% {
+        -webkit-transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}

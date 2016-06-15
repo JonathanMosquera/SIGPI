@@ -1,0 +1,58 @@
+/* Para evitar margenes y espacios */
+* { margin: 0; padding: 0; }
+ 
+.letra{
+	color:#FFF;
+	text-align:center;
+	size: 15px;}
+	.letra1{
+	color:#FFF;
+	text-align:left;
+	size: 15px;}
+	
+	.letra2{
+	color:#003366;
+	text-align:left;
+	size: 15px;}
+	
+#page {
+    width: 900px;
+    margin: 0 auto;
+}
+ 
+.btnagrega{
+	width:200px;
+}
+
+
+#cabeza {
+    background: #900;
+    height: 200px;
+}
+ 
+#menu-contenedor {
+    height: 50px;
+}
+ 
+ul#menu {
+    padding: 0;
+    height: 50px;
+    background: #dfd;
+}
+ 
+ul#menu li {
+	display: inline-block;
+    padding: 0 10px;
+    line-height: 50px;
+}
+ 
+#contenido {
+    height: 700px;
+    background: green;
+}
+ 
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    width: 900px;
+}
